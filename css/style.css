@@ -89,26 +89,31 @@ h1 {
 }
 
 /* Column container */
-.row {
-  display: flex;
-  flex-wrap: wrap;
+.app{
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-columns: 150px 1fr 150px;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
+.main {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+  opacity: 100%
+}
+
 .side {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 4;
+  grid-column-end: 2;
   position: center;
   flex: 30%; /* Set the width of the sidebar */
   background-color: #ffc6e1; /* Grey background color */
   padding: 20px; /* Some padding */
   opacity: 100%
-}
-
-/* Main column */
-.main {
-  flex: 70%; /* Set the width of the main content */
-  background-color: white; /* White background color */
-  padding: 20px; /* Some padding */
-  opacity: 100%
-
 }
