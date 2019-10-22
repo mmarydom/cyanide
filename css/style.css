@@ -10,7 +10,7 @@ body {
   background-image: url('https://raw.githubusercontent.com/mmarydom/cyanide/master/wallpaper.jpg');
   background-size: cover;
   background-repeat: repeat-y;
-  background-position: absolute;
+  background-attachment: fixed;
   height: 100vh;
   padding:0;
   margin:0;
@@ -97,18 +97,15 @@ h1 {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  position: center;
-  margin-top: -100px;
+  float: center;
   flex: 30%; /* Set the width of the sidebar */
   background-color: #ffc6e1; /* Grey background color */
   padding: 20px; /* Some padding */
-  opacity: 0.6
-
+  opacity: 100%
 }
 
 /* Main column */
 .main {
-  position: center;
   flex: 70%; /* Set the width of the main content */
   background-color: white; /* White background color */
   padding: 20px; /* Some padding */
