@@ -100,7 +100,7 @@ h1 {
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 4;
-  flex: 70%; /* Set the width of the main content */
+  column-width: 70%; /* Set the width of the main content */
   background-color: white; /* White background color */
   padding: 20px; /* Some padding */
   opacity: 100%
@@ -112,8 +112,8 @@ h1 {
   grid-column-start: 4;
   grid-column-end: 2;
   position: center;
-  flex: 30%; /* Set the width of the sidebar */
+  column width: 50%; /* Set the width of the sidebar */
   background-color: #ffc6e1; /* Grey background color */
   padding: 20px; /* Some padding */
-  opacity: 100%
+  opacity: 0.6
 }
