@@ -97,7 +97,7 @@ h1 {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  float: center;
+  position: center;
   flex: 30%; /* Set the width of the sidebar */
   background-color: #ffc6e1; /* Grey background color */
   padding: 20px; /* Some padding */
