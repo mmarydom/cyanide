@@ -98,15 +98,17 @@ h1 {
 /* Sidebar/left column */
 .side {
   position: center;
+  margin-top: -100px;
   flex: 30%; /* Set the width of the sidebar */
   background-color: #ffc6e1; /* Grey background color */
   padding: 20px; /* Some padding */
-  opacity: 100%
+  opacity: 0.6
+
 }
 
 /* Main column */
 .main {
-  position: center; 
+  position: center;
   flex: 70%; /* Set the width of the main content */
   background-color: white; /* White background color */
   padding: 20px; /* Some padding */
