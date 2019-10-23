@@ -222,7 +222,7 @@ a {
 }
 
 .background{
-   background-color: #ffedf8;
+  background-color: #ffedf8;
   background-image: url('https://raw.githubusercontent.com/mmarydom/cyanide/master/wallpaper.jpg');
   background-size: cover;
   background-repeat: repeat-y;
