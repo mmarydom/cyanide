@@ -10,9 +10,9 @@ canvas
 .mainbody
 {
   margin: auto;
-  margin-top: 10vh;
+  margin-top: 20vh;
   margin-bottom: 10vh;
-  max-width: 960px;
+  max-width: 1000px;
   min-width: 500px;
 
   background-color: #78ff8e;
@@ -75,9 +75,9 @@ canvas
 
 .profilepic
 {
-  display: block;
-  top: 0;
-  left: 0;
+  display: inline;
+  top: -20px;
+  left: -20px;
   position: absolute;
 }
 
