@@ -25,16 +25,15 @@ body {
   margin: auto;
   margin-top: 20vh;
   margin-bottom: 20vh;
-  max-width: 1000px;
-  z-index:100;
-  position:absolute;
-  padding-bottom:300px;
+  max-width: 960px;
+  min-width: 500px;
+  background-color: #ff3b3b;
   border-radius: 25px;
 }
 
 /*this is the navi bar*/
 .bodyheader{
-  background-color: #ff8c8c;
+  background-color: #8dff87;
   left: 0;
   top: 0;
   right: 0;
@@ -58,7 +57,7 @@ body {
 
 .bodyheader a:hover{
   background-color: #00FFFF;
-  color: #ff8c8c;
+  color: #8dff87;
 }
 
 .bodyheader h2
