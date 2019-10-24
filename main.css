@@ -1,42 +1,35 @@
 body {
-  background-image:url("wallpaper.jpg");
-  background-repeat: repeat-y;
+  background-image:url("bgtop.png");
+  background-repeat:no-repeat;
   background-attachment:fixed;
   background-position:top center;
   background-size:cover;
-         color:#FFFFFF;
-         margin-top:32px;
+  background-color:#343537;
+       color:#FFFFFF;
+       font-family: "Courier", monospace;
+       margin-top:32px;
   margin-left:0px;
   margin-right:0px;
 }
 
-
-canvas
-{
-  position:fixed; left:0; top:0; z-index:-1;
-}
-
-.mainbody
-{
-  margin: auto;
-  margin-top: 20vh;
-  margin-bottom: 10vh;
-  max-width: 1000px;
-  min-width: 500px;
-
-  background-color: #78ff8e;
-  border-radius:
-
+.drip2 {
   background-image:url("bottom drip.png");
   background-position:top center;
-  left: 0;
-  top: 0;
-  right: 0;
-  padding: 10px;
   width:100%;
   height:275px;
   z-index:1;
   margin-bottom:-275px;
+}
+
+.main {
+  margin: auto;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  max-width: 1000px;
+  z-index:100;
+  position:absolute;
+  padding-bottom:300px;
+  border-radius: 25px;
 }
 
 /*this is the navi bar*/
@@ -71,9 +64,9 @@ canvas
 .bodyheader h2
 {
     color: white;
-
 }
 
+/* this is prolly where to add the menu bar*/
 .subheader
 {
   background-color: #00FFFF;
@@ -91,6 +84,12 @@ canvas
   margin: 0;
   height: 60px;
   position: relative;
+}
+
+div.inside {
+  background-color:#343537;
+  margin:0px;
+  padding:0px;
 }
 
 .img1{
