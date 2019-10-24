@@ -100,14 +100,12 @@ canvas
   right: 250px;
   position: absolute;
   z-index: -2;
-  float: left;
 }
 
 .img2{
   display: none;
-  z-index: -0;
+  z-index: -2;
   position: absolute;
-  float: left;
 }
 
 .img2: hover{
