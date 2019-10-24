@@ -4,8 +4,6 @@ body {
   background-attachment:fixed;
   background-position:top center;
   background-size:cover;
-  background-color:#343537;
-       color:#FFFFFF;
        font-family: "Courier", monospace;
        margin-top:32px;
   margin-left:0px;
@@ -24,7 +22,7 @@ body {
 .mainbody {
   margin: auto;
   margin-top: 20vh;
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
   max-width: 960px;
   min-width: 500px;
   background-color: #ff3b3b;
