@@ -1,5 +1,22 @@
 body {
-  margin: 0;
+  background-image:url("wallpaper.jpg");
+  background-repeat: repeat-y;
+  background-attachment:fixed;
+  background-position:top center;
+  background-size:cover;
+  background-color:#00FFFF;
+         color:#FFFFFF;
+         margin-top:32px;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+div.drip2 {background-image:url("bottom drip.png");
+background-position:top center;
+width:100%;
+height:275px;
+z-index:1;
+margin-bottom:-275px;
 }
 
 canvas
@@ -75,10 +92,10 @@ canvas
 
 .profilepic
 {
-  display: inline;
-  top: -200px;
-  left: -200px;
-  position: absolute;
+  display: grid;
+  top: 0;
+  left:0;;
+  position: relative;
 }
 
 .bodyheader,.links, .sublinks
@@ -218,17 +235,6 @@ a {
 .image.grid
 {
   grid-column: 2;
-}
-
-.background{
-  background-color: #ffedf8;
-  background-image: url('https://raw.githubusercontent.com/mmarydom/cyanide/master/wallpaper.jpg');
-  background-size: cover;
-  background-repeat: repeat-y;
-  background-position: fixed;
-  height: 100vh;
-  padding:0;
-  margin:0;
 }
 
 .divcanvas
