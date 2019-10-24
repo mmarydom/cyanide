@@ -38,7 +38,8 @@ body {
 
 .bodyheader a:hover{
   background-color: #00FFFF;
-  color: #8dff87;
+  color: #ff3b3b;
+  border-radius: 15px 15px
 }
 
 .bodyheader h2
