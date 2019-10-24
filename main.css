@@ -10,17 +10,6 @@ body {
   margin-right:0px;
 }
 
-div.drip2 {background-image:url("bottom drip.png");
-background-position:top center;
-left: 0;
-top: 0;
-right: 0;
-padding: 10px;
-width:100%;
-height:275px;
-z-index:1;
-margin-bottom:-275px;
-}
 
 canvas
 {
@@ -36,7 +25,18 @@ canvas
   min-width: 500px;
 
   background-color: #78ff8e;
-  border-radius: 25px
+  border-radius:
+
+  background-image:url("bottom drip.png");
+  background-position:top center;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  width:100%;
+  height:275px;
+  z-index:1;
+  margin-bottom:-275px;
 }
 
 /*this is the navi bar*/
