@@ -85,12 +85,6 @@ body {
   position: relative;
 }
 
-.inside {
-  background-color:#343537;
-  margin:0px;
-  padding:0px;
-}
-
 .img1{
   display: grid;
   top: 250px;
