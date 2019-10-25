@@ -1,38 +1,18 @@
 body {
-  background-image:url("wallpaper.jpg");
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  background-position:top center;
-  background-size:cover;
-  background-color:#343537;
-       color:#FFFFFF;
-       font-family: "Courier", monospace;
-       margin-top:32px;
-  margin-left:0px;
-  margin-right:0px;
-}
-
-.drip {
-background-image:url("bottom.png");
-background-position:top center;
-width:100%;
-height:275px;
-z-index:1;
-margin-bottom:-275px;
+  margin: 0;
 }
 
 .mainbody {
-  margin-top:20vh;
-  margin-bottom: 20vh;
+  margin: auto;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
   max-width: 960px;
   min-width: 500px;
-  width:70%;
-  z-index:100;
-  position:absolute;
-  padding-bottom:300px;
+  background-color: #ff3b3b;
   border-radius: 25px;
 }
 
+/*this is the navi bar*/
 .bodyheader{
   background-color: #8dff87;
   left: 0;
@@ -67,18 +47,24 @@ margin-bottom:-275px;
     color: white;
 }
 
-.inside {
-background-color:#343537;
-margin:0px;
-padding:0px;
+/* this is prolly where to add the menu bar*/
+.subheader
+{
+  background-color: #00FFFF;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 2px;
+  border-top: 2px solid white;
 }
 
-.container {
+.container
+{
   max-width: 640px;
-   padding: 0;
-   margin: 0;
-   height: 60px;
-   position: relative;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  position: relative;
 }
 
 .bodyheader,.links, .sublinks
@@ -162,4 +148,70 @@ a {
   line-height:20px;
   font-size: 18px;
 
+}
+
+.description.grid
+{
+  grid-column: 1;
+  text-align: left;
+  padding: 0px 20px;
+  margin: 0;
+}
+
+.description.grid h2
+{
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.description.grid p
+{
+  width: 100%;
+}
+
+.workcited p
+{
+  color: #383838;
+  font-size: 12px;
+}
+
+.image
+{
+  overflow: hidden;
+}
+
+.image.grid img
+{
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.image.rowgallery
+{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  /* display: inline; */
+
+}
+
+.image.rowgallery img
+{
+  height: 100%;
+}
+
+.image.grid
+{
+  grid-column: 2;
+}
+
+.divcanvas
+{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-1;
 }
