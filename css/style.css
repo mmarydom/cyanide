@@ -9,7 +9,7 @@ body {
   background-color: #ffedf8;
   background-image: url('https://raw.githubusercontent.com/mmarydom/cyanide/master/images/wallpaper.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 
   height: 100vh;
   padding:0;
