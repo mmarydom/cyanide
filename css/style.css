@@ -24,8 +24,8 @@ body {
   color: #043077;
 }
 
-.drip2 {
-background-image:url("bottom drip.png");
+.drip{
+background-image: url('https://raw.githubusercontent.com/mmarydom/cyanide/master/images/bottom%20drip.png');
 background-position:bottom center;
 width:100%;
 height:275px;
