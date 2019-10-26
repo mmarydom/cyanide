@@ -8,8 +8,9 @@
 body {
   background-color: #ffedf8;
   background-image: url('https://raw.githubusercontent.com/mmarydom/cyanide/master/images/wallpaper.jpg');
-  background-size: cover;
+  background-size: 50%;
   background-repeat: repeat;
+  background-attachment:fixed;
 
   height: 100vh;
   padding:0;
