@@ -84,7 +84,7 @@ h1 {
   height: 80px;
 }
 #navimage:hover {
-  display: hidden;
+  display: none;
 }
 
 /* navimage0 */
