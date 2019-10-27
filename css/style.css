@@ -76,17 +76,26 @@ h1 {
   padding: 0px 0px 0px 415px; /* Shift the navbar to the right */
 }
 
-/* navimage */
+/* navimage0 */
 #navimage {
   position: relative;
   top: 40px;
-  height: 80px
+  height: 80px;
+  visibility: visible;
+}
+#navimage:hover {
+  visibility: hidden;
 }
 
-#navimage:hover {
+/* navimage */
+#navimage0 {
   position: relative;
   top: 40px;
-  height: 80px
+  height: 80px;
+  visibility: hidden;
+}
+#navimage0:hover {
+  visibility: visible;
 }
 
 /* Style the navigation bar links */
