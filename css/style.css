@@ -73,7 +73,20 @@ h1 {
   overflow: hidden; /* Hide overflow */
   background-color: #78ff8e; /* Dark background color */
   border-radius: 25px 25px 0px 0px;
-  }
+}
+
+/* navimage */
+#navimage {
+  position: absolute;
+  top: 20px;
+  background: url("images/practice.png");
+}
+
+#navimage:hover {
+  position: absolute;
+  top: 20px;
+  background: url("images/practice0.png");
+}
 
 /* Style the navigation bar links */
 .navbar a {
