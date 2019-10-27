@@ -80,17 +80,6 @@ h1 {
 #navimage {
   position: relative;
   top: 40px;
- right: 88px;
-  height: 80px;
-}
-#navimage:hover {
-  display: none;
-}
-
-/* navimage0 */
-#navimage0 {
-  position: relative;
-  top: 40px;
   height: 80px;
 }
 
