@@ -76,10 +76,11 @@ h1 {
   padding: 0px 0px 0px 415px; /* Shift the navbar to the right */
 }
 
-/* navimage0 */
+/* navimage */
 #navimage {
   position: relative;
   top: 40px;
+  right: 88px;
   height: 80px;
   visibility: visible;
 }
@@ -87,11 +88,10 @@ h1 {
   visibility: hidden;
 }
 
-/* navimage */
+/* navimage0 */
 #navimage0 {
   position: relative;
   top: 40px;
-  right: 88px;
   height: 80px;
 }
 
