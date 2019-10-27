@@ -80,13 +80,15 @@ h1 {
 #navimage {
   position: absolute;
   top: 20px;
-  background: url("images/practice.png");
+  background: url("../images/practice.png");
+  height: 80px;
 }
 
 #navimage:hover {
   position: absolute;
   top: 20px;
-  background: url("images/practice0.png");
+  background: url("../images/practice0.png");
+  height: 80px;
 }
 
 /* Style the navigation bar links */
