@@ -82,10 +82,9 @@ h1 {
   top: 40px;
   right: 88px;
   height: 80px;
-  visibility: visible;
 }
 #navimage:hover {
-  visibility: hidden;
+  display: hidden;
 }
 
 /* navimage0 */
