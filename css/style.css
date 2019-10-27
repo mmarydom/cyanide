@@ -78,16 +78,15 @@ h1 {
 
 /* navimage */
 #navimage {
-  position: absolute;
-  top: 20px;
-  background: url("../images/practice.png") no-repeat;
-  height: 80px;
+  position: relative;
+  top: 40px;
+  height: 80px
 }
 
 #navimage:hover {
-  position: absolute;
-  top: 20px;
-  background: url("../images/practice0.png") no-repeat;
+  position: relative;
+  top: 40px;
+  height: 80px
 }
 
 /* Style the navigation bar links */
