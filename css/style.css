@@ -91,11 +91,9 @@ h1 {
 #navimage0 {
   position: relative;
   top: 40px;
+  right: 88px;
   height: 80px;
   visibility: hidden;
-}
-#navimage0:hover {
-  visibility: visible;
 }
 
 /* Style the navigation bar links */
