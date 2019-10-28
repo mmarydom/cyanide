@@ -73,7 +73,7 @@ h1 {
   overflow: hidden; /* Hide overflow */
   background-color: #78ff8e; /* Dark background color */
   border-radius: 25px 25px 0px 0px;
-  padding: 0px 0px 0px 415px; /* Shift the navbar to the right */
+  padding: 0px 0px 0px 300px; /* Shift the navbar to the right */
 }
 
 /* navimage */
