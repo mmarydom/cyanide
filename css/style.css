@@ -8,14 +8,14 @@
 body {
   background-color: #ffedf8;
   background-image: url('https://raw.githubusercontent.com/mmarydom/cyanide/master/images/wallpaper.jpg');
-  background-size: 20%;
+  background-size: 50%;
   background-repeat: repeat;
 
   height: 100vh;
   padding:0;
   margin: auto;
-  margin-top: 20vh;
-  margin-bottom: 10vh;
+  margin-top: 0;
+  margin-bottom: 0;
   max-width: 960px;
   min-width: 500px;
 
