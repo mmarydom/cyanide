@@ -29,60 +29,54 @@
         </div>
           </brk>
               <br>
-                <p>The goal of this course is to establish a foundational digital literacy. Keep in mind that this class is an introduction on how to use hypermedia to make contemporary forms of art; it is not a software training course. The intention of this class is to use our modern age technology as environments rather than digital tools at our disposal. General understanding of the political/social/aesthetic implications of living in a digital age will be developed; in addition to experimenting with meta-mediums and ideas of how the logic of the art world and the logic of new media may be contrary.
+                  <h2>Vertical Tabs</h2>
+                  <p>Click on the buttons inside the tabbed menu:</p>
+
+                  <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                  </div>
+
+                  <div id="London" class="tabcontent">
+                    <h3>About</h3>
+                    <p>The goal of this course is to establish a foundational digital literacy. Keep in mind that this class is an introduction on how to use hypermedia to make contemporary forms of art; it is not a software training course. The intention of this class is to use our modern age technology as environments rather than digital tools at our disposal. General understanding of the political/social/aesthetic implications of living in a digital age will be developed; in addition to experimenting with meta-mediums and ideas of how the logic of the art world and the logic of new media may be contrary.</p>
+                  </div>
+
+                  <div id="Paris" class="tabcontent">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
+                  </div>
+
+                  <div id="Tokyo" class="tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                  </div>
+
+                  <script>
+                  function openCity(evt, cityName) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                      tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                      tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+                    document.getElementById(cityName).style.display = "block";
+                    evt.currentTarget.className += " active";
+                  }
+
+                  // Get the element with id="defaultOpen" and click on it
+                  document.getElementById("defaultOpen").click();
+                  </script>
+
+
+
               </br>
           </br>
         </div>
-
-
-
-        <h2>Vertical Tabs</h2>
-<p>Click on the buttons inside the tabbed menu:</p>
-
-<div class="tab">
-<button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-<button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-<button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-</div>
-
-<div id="London" class="tabcontent">
-<h3>London</h3>
-<p>London is the capital city of England.</p>
-</div>
-
-<div id="Paris" class="tabcontent">
-<h3>Paris</h3>
-<p>Paris is the capital of France.</p>
-</div>
-
-<div id="Tokyo" class="tabcontent">
-<h3>Tokyo</h3>
-<p>Tokyo is the capital of Japan.</p>
-</div>
-
-<script>
-function openCity(evt, cityName) {
-var i, tabcontent, tablinks;
-tabcontent = document.getElementsByClassName("tabcontent");
-for (i = 0; i < tabcontent.length; i++) {
-tabcontent[i].style.display = "none";
-}
-tablinks = document.getElementsByClassName("tablinks");
-for (i = 0; i < tablinks.length; i++) {
-tablinks[i].className = tablinks[i].className.replace(" active", "");
-}
-document.getElementById(cityName).style.display = "block";
-evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-
-
-
-
-
       <div class="main"></br></div>
   </body>
 
