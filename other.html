@@ -8,7 +8,10 @@
 
 </head>
   <body>
-    <a href="index.html"><img src="images/practice.png" height="60px"></img></a>
+    <a href="index.html">
+      <img id="navimage"  src="images/hover.png" onmouseover="onHover();"
+      onmouseout="offHover();"></img>
+    </a>
     </div>
 
     <h1><div class="navbar">
@@ -19,20 +22,32 @@
     </div></h1>
 
 
-
     <div class="row">
       <div class="side">
         <div class="gallery">
-        </brk>
-          </div>
-            </brk>
-                <br>
-                  <p>Art I've worked on in other classes that im really proud of :)
-                </br>
-            </br>
-          </div>
+      </brk>
+        </div>
+          </brk>
+          <br>
+            <p>Art I've worked on in other classes that im really proud of :)
+          </br>
+          </br>
         </div>
       <div class="main"></br></div>
 
   </body>
+
+  <script>
+    function onHover()
+    {
+        var image = document.getElementById("navimage");
+        image.src="images/hover2.png";
+    }
+
+    function offHover()
+    {
+        var image = document.getElementById("navimage");
+        image.src="images/hover.png";
+    }
+  </script>
 </html>
