@@ -124,16 +124,6 @@ h1 {
   flex: 100%; /* Set the width of the sidebar */
   background-color: #ff8c8c; /* Grey background color */
   padding: 60px; /* Some padding */
-
-  float: left;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  width: 30%;
-  height: 300px;
-}
-
-.side button{
-
 }
 
 /* do not mention in html!! just an image */
