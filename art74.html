@@ -8,10 +8,7 @@
 
 </head>
   <body>
-    <a href="index.html">
-      <img id="navimage"  src="images/hover.png" onmouseover="onHover();"
-      onmouseout="offHover();"></img>
-    </a>
+    <a href="index.html"><img src="images/practice.png" height="60px"></img></a>
     </div>
 
     <h1><div class="navbar">
@@ -22,6 +19,7 @@
     </div></h1>
 
 
+
     <div class="row">
       <div class="side">
         <div class="gallery">
@@ -29,69 +27,11 @@
         </div>
           </brk>
               <br>
-  <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-  <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
-  <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-  <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
-
-  <div id="Home" class="tabcontent">
-    <h3>About</h3>
-    <p>The goal of this course is to establish a foundational digital literacy. Keep in mind that this class is an introduction on how to use hypermedia to make contemporary forms of art; it is not a software training course. The intention of this class is to use our modern age technology as environments rather than digital tools at our disposal. General understanding of the political/social/aesthetic implications of living in a digital age will be developed; in addition to experimenting with meta-mediums and ideas of how the logic of the art world and the logic of new media may be contrary.</p>
-  </div>
-
-  <div id="News" class="tabcontent">
-    <h3>News</h3>
-    <p>Some news this fine day!</p>
-  </div>
-
-  <div id="Contact" class="tabcontent">
-    <h3>Contact</h3>
-    <p>Get in touch, or swing by for a cup of coffee.</p>
-  </div>
-
-  <div id="About" class="tabcontent">
-    <h3>About</h3>
-    <p>Who we are and what we do.</p>
-  </div>
-
-  <script>
-  function openPage(pageName,elmnt,color) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablink");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].style.backgroundColor = "";
-    }
-    document.getElementById(pageName).style.display = "block";
-    elmnt.style.backgroundColor = color;
-  }
-
-  // Get the element with id="defaultOpen" and click on it
-  document.getElementById("defaultOpen").click();
-  </script>
-
-
-
+                <p>The goal of this course is to establish a foundational digital literacy. Keep in mind that this class is an introduction on how to use hypermedia to make contemporary forms of art; it is not a software training course. The intention of this class is to use our modern age technology as environments rather than digital tools at our disposal. General understanding of the political/social/aesthetic implications of living in a digital age will be developed; in addition to experimenting with meta-mediums and ideas of how the logic of the art world and the logic of new media may be contrary.
               </br>
           </br>
         </div>
       <div class="main"></br></div>
+
   </body>
-
-  <script>
-    function onHover()
-    {
-        var image = document.getElementById("navimage");
-        image.src="images/hover2.png";
-    }
-
-    function offHover()
-    {
-        var image = document.getElementById("navimage");
-        image.src="images/hover.png";
-    }
-  </script>
 </html>

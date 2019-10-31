@@ -126,49 +126,12 @@ h1 {
   padding: 60px; /* Some padding */
 }
 
-/* Set height of body and the document to 100% to enable "full page tabs" */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
-}
-
-/* Style tab links */
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
-
-.tablink:hover {
-  background-color: #777;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
-
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
-
 /* do not mention in html!! just an image */
 .main {
   background-image:url("https://raw.githubusercontent.com/mmarydom/cyanide/master/images/bottom%20drip.png");
-  background-position:top center;
-  width:100%;
-  height:275px;
-  z-index:1;
-  argin-bottom:-275px;
+background-position:top center;
+width:100%;
+height:275px;
+z-index:1;
+margin-bottom:-275px;
 }
