@@ -23,89 +23,50 @@
     <div class="row">
       <div class="side">
         <div class="gallery">
-      </brk>
-        </div>
           </brk>
-              <br>
-                <p>The goal of this course is to establish a foundational digital literacy. Keep in mind that this class is an introduction on how to use hypermedia to make contemporary forms of art; it is not a software training course. The intention of this class is to use our modern age technology as environments rather than digital tools at our disposal. General understanding of the political/social/aesthetic implications of living in a digital age will be developed; in addition to experimenting with meta-mediums and ideas of how the logic of the art world and the logic of new media may be contrary.
-              </br>
+            </div>
+                  <div class="tab">
+                     <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+                     <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                     <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                   </div>
 
-              <style>
-               #content
-              {
-                 background-color: #f2f2f2;
-                 padding: 20px 10px;
-                 overflow: auto;
-              }
-              #tab-container
-              {
-                 float: left;
-                 margin: 50px 0 0 0;
-                 width: 126px;
-              }
-              #tab-container ul
-              {
-                 list-style: none;
-                 text-align: center;
-              }
-              #tab-container ul li
-              {
-                 border-top: 1px solid #666;
-                 border-right: 1px solid #666;
-                 border-bottom: 1px solid #666;
-                 border-left: 8px solid #666;
-                 background-color: #ddd;
-                 margin: 8px 0;
-              }
-              #tab-container ul li a,
-              #tab-container ul li a:visited
-              {
-                 text-decoration: none;
-                 color: #666;
-                 display: block;
-                 padding: 15px 5px;
-              }
-              #tab-container ul li:hover
-              {
-                 border-left: 8px solid #333;
-              }
-              #tab-container ul li a:hover
-              {
-                 color: #000;
-              }
-              #tab-container ul li.selected
-              {
-                 border-right: none;
-                 background-color: #fff;
-                 border-left: 8px solid #006699;
-              }
-              #main-container
-              {
-                 min-height: 400px;
-                 margin: 0 0 0 125px;
-                 padding: 20px;
-                 background-color: #fff;
-                 border: 1px solid #888;
-              }
-               </style>
-                <div id="content">
-                 <div id="tab-container">
-                    <ul>
-                       <li class="selected"><a href="">Introduction</a></li>
-                       <li><a href="">Html</a></li>
-                       <li><a href="">CSS</a></li>
-                       <li><a href="">JavaScript</a></li>
-                    </ul>
-                 </div>
-                 <div id="main-container">
-                    <h1>Put your content here...</h1>
-                 </div>
+                   <div id="London" class="tabcontent">
+                     <h3>About</h3>
+                     <p>The goal of this course is to establish a foundational digital literacy. Keep in mind that this class is an introduction on how to use hypermedia to make contemporary forms of art; it is not a software training course. The intention of this class is to use our modern age technology as environments rather than digital tools at our disposal. General understanding of the political/social/aesthetic implications of living in a digital age will be developed; in addition to experimenting with meta-mediums and ideas of how the logic of the art world and the logic of new media may be contrary.</p>
+                   </div>
+
+                   <div id="Paris" class="tabcontent">
+                     <h3>Paris</h3>
+                     <p>Paris is the capital of France.</p>
+                   </div>
+
+                   <div id="Tokyo" class="tabcontent">
+                     <h3>Tokyo</h3>
+                     <p>Tokyo is the capital of Japan.</p>
+                   </div>
+
+                   <script>
+                   function openCity(evt, cityName) {
+                     var i, tabcontent, tablinks;
+                     tabcontent = document.getElementsByClassName("tabcontent");
+                     for (i = 0; i < tabcontent.length; i++) {
+                       tabcontent[i].style.display = "none";
+                     }
+                     tablinks = document.getElementsByClassName("tablinks");
+                     for (i = 0; i < tablinks.length; i++) {
+                       tablinks[i].className = tablinks[i].className.replace(" active", "");
+                     }
+                     document.getElementById(cityName).style.display = "block";
+                     evt.currentTarget.className += " active";
+                   }
+
+                   // Get the element with id="defaultOpen" and click on it
+                   document.getElementById("defaultOpen").click();
+                   </script>
+
               </div>
+            <div class="main"></br></div>
 
-
-          </br>
-        </div>
-      <div class="main"></br></div>
-
-  </body>
-</html>
+        </body>
+      </html>
