@@ -174,9 +174,7 @@ margin-bottom:-275px;
 /* Style the tab content */
 .tabcontent {
   float: left;
-  padding: 0px 12px;
-  border: 1px solid #ccc;
+  padding: 0px 0px 0px 40px;
   width: 70%;
-  border-left: none;
-  height: 300px;
+  height: auto;
 }
