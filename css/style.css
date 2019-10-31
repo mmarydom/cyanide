@@ -126,18 +126,6 @@ h1 {
   padding: 60px; /* Some padding */
 }
 
-/* do not mention in html!! just an image */
-.main {
-  background-image:url("https://raw.githubusercontent.com/mmarydom/cyanide/master/images/bottom%20drip.png");
-background-position:top center;
-width:100%;
-height:275px;
-z-index:1;
-margin-bottom:-275px;
-}
-
-* {box-sizing: border-box}
-
 /* Style the tab */
 .tab {
   float: left;
@@ -171,12 +159,13 @@ margin-bottom:-275px;
   background-color: #ccc;
 }
 
-/* Style the tab content */
-.tabcontent {
-  float: left;
-  padding: 0px 12px;
-  border: 1px solid #ccc;
-  width: 70%;
-  border-left: none;
-  height: 300px;
+
+/* do not mention in html!! just an image */
+.main {
+  background-image:url("https://raw.githubusercontent.com/mmarydom/cyanide/master/images/bottom%20drip.png");
+  background-position:top center;
+  width:100%;
+  height:275px;
+  z-index:1;
+  argin-bottom:-275px;
 }
