@@ -70,18 +70,18 @@ h1 {
 
 /* Style the top navigation bar */
 .navbar {
-  font-size: 15pt;
+  font-size: 16pt;
   overflow: hidden; /* Hide overflow */
   background-color: #78ff8e; /* Dark background color */
   border-radius: 25px 25px 0px 0px;
-  padding: 0px 0px 0px 300px; /* Shift the navbar to the right */
+  padding: 0px 0px 0px 255px; /* Shift the navbar to the right */
 }
 
 /* navimage */
 #navimage {
   position: relative;
-  top: 114px;
-  height: 300px;
+  top: 132px;
+  height: 350px;
 }
 
 /* Style the navigation bar links */
