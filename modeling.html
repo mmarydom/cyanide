@@ -10,8 +10,43 @@
   <body>
 
     <a href="index.html">
-      <img id="navimage"  src="images/hover.png" onmouseover="onHover();"
-      onmouseout="offHover();"></img>
+      <style>
+      .tooltip2 {
+        position: relative;
+        display: inline-block;
+      }
+
+      .tooltip2 .tooltiptext2 {
+        visibility: hidden;
+        width: 300px;
+        background-color: #ff006e;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: 150px;
+        left: 90%;
+      }
+
+      .tooltip2 .tooltiptext2::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin-top: -20px;
+        border-width: 20px;
+        border-style: solid;
+        border-color: transparent #ff006e transparent transparent;
+      }
+      .tooltip2:hover .tooltiptext2 {
+        visibility: visible;
+      }
+      </style>
+      <div class="tooltip2">
+      <img id="navimage"  src="images/hover.png" onmouseover="onHover();" onmouseout="offHover();"></img>
+      <span class="tooltiptext2"><img src="images/home.png" width="150" height="150"></span></div>
     </a>
     </div>
 

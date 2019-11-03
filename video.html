@@ -10,10 +10,46 @@
   <body>
 
     <a href="index.html">
-      <img id="navimage"  src="images/hover.png" onmouseover="onHover();"
-      onmouseout="offHover();"></img>
+      <style>
+      .tooltip2 {
+        position: relative;
+        display: inline-block;
+      }
+
+      .tooltip2 .tooltiptext2 {
+        visibility: hidden;
+        width: 300px;
+        background-color: #ff006e;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: 150px;
+        left: 90%;
+      }
+
+      .tooltip2 .tooltiptext2::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin-top: -20px;
+        border-width: 20px;
+        border-style: solid;
+        border-color: transparent #ff006e transparent transparent;
+      }
+      .tooltip2:hover .tooltiptext2 {
+        visibility: visible;
+      }
+      </style>
+      <div class="tooltip2">
+      <img id="navimage"  src="images/hover.png" onmouseover="onHover();" onmouseout="offHover();"></img>
+      <span class="tooltiptext2"><img src="images/home.png" width="150" height="150"></span></div>
     </a>
     </div>
+
 
     <h1><div class="navbar">
       <a href="video.html" class="buttons">Video❤Art</a>
@@ -30,8 +66,9 @@
         <div class="gallery">
           </brk>
             </div>
-                  <p> Work that I have done throughout Art 74 and Art 75. Through the use of Adobe Premier Pro, I was able to produce videos
-                  that exressed my messages to society. </p>
+                  <div class="tooltip"><img src="images/cyan note.png" width="250" height="250"></img></a><span class="tooltiptext"> This section features some of the video projects I've made. With the use of Adobe Premier Pro, I was able to produce videos
+                  that expressed my ideas toward modern society. </span></div>
+
 
                 </br>
                 </br>
@@ -44,8 +81,7 @@
                 <p>Medium: Video Art - made with Adobe Premier Pro</p>
                 <p>Dimensions: 1920 x 1080</p>
                 </br>
-                <p>I often view social media as a stage, where performers display the best of their abilities. Whether its art, beauty, comedy, or anything, you gain attention from those who view them. At times, we find ourselves being addicted to our popularity, forcing ourselves to post more for more views. From this, we gain this false sense of happiness. And other times, we find ourselves the losing performers compared to those with a higher following, leaving us to feel worthless and unimportant. Fake.hapiness is supposed to bring out the negativity of social media. Our character in this video represents our mentality, where we begin to like the “audience” who watch us, forcing ourselves to post more and as we continue this cycle, we slowly lose our minds.</p>
-                <p>This video was actually inspired by my friend’s situation, in which she began to feel badly depressed, partly because of the influence of social media. I was able to understand her situation because I often worried about the same things as her. I wanted to bring up facades, insecurity, false happiness, addiction, and even the factor of an invasion of privacy. Maybe not all of these components can be seen, but people can interpret this video however they want.</p>
+                <p>I often view social media as a stage, where performers display the best of their abilities. Whether its art, beauty, comedy, or anything, you gain attention from those who view them. At times, we find ourselves being addicted to our popularity, forcing ourselves to post more for more views. From this, we gain this false sense of happiness. And other times, we find ourselves the losing performers compared to those with a higher following, leaving us to feel worthless and unimportant. Fake.hapiness is supposed to bring out the negativity of social media. Our character in this video represents our mentality, where we begin to like the “audience” who watch us, forcing ourselves to post more and as we continue this cycle, we slowly lose our minds. I wanted to bring up facades, insecurity, false happiness, addiction, and even the factor of an invasion of privacy. Maybe not all of these components can be seen, but people can interpret this video however they want.</p>
 
                 </br>
                 </br>
@@ -58,7 +94,7 @@
                 <p>Medium: Video Art - made with Adobe Premier Pro</p>
                 <p>Dimensions: 1920 x 1080</p>
                 </br>
-                <p> The message I am trying to portray in this video is our gradual lack of privacy due to the surveillance not only through our webcams but also through social media. There are dangers
+                <p> The message I am trying to portray in this video is our gradual lack of privacy due to those watching not only through our webcams but also through social media. There are dangers
                 with people being able to spy on us through our technology but there is even more dangers that come with exposing yourself on twitter and instagram.
                 I wanted to spread awareness of this because we have gotten so used to unrestrained sharing through social media that it has even become a norm nowadays.
 
@@ -73,10 +109,7 @@
                 <p>Medium: Video Art - made with Adobe Premier Pro</p>
                 <p>Dimensions: 1920 x 1080</p>
                 </br>
-                <p>This is was made in collabration with my friend, Deana Desilva, for our mock online exhibit Gl*tch in the Ro*tine. The objective for this assignment was to create and form an exhibit by planning out
-                out the layout of the display as well as incorporating a video as your main attraction. For us, we wanted to try to do a VR video and create an online exhibit to display this video.</p>
-
-                <p> The reason why we wanted our video to be VR was to simulate a camera, constanlty prying into our private lives. This video was made to look strange when watched with a VR headset on purpose because it would give our audience a distorted, uncomfortable view.</p>
+                <p>This was the video my friend and I made for our mock online exhibit Gl*tch in the Ro*tine. The video was made with the idea of how social media can cause dentrimental effects to its users, as well as the lack of privacy that comes with it. The reason why we wanted our video to be VR was to simulate a camera, constanlty prying into our private lives. This video was made to look strange when watched with a VR headset on purpose because it would give our audience a distorted, uncomfortable view.</p>
 
                 </br>
                 </br>

@@ -10,10 +10,46 @@
   <body>
 
     <a href="index.html">
-      <img id="navimage"  src="images/hover.png" onmouseover="onHover();"
-      onmouseout="offHover();"></img>
+      <style>
+      .tooltip2 {
+        position: relative;
+        display: inline-block;
+      }
+
+      .tooltip2 .tooltiptext2 {
+        visibility: hidden;
+        width: 300px;
+        background-color: #ff006e;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: 150px;
+        left: 90%;
+      }
+
+      .tooltip2 .tooltiptext2::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin-top: -20px;
+        border-width: 20px;
+        border-style: solid;
+        border-color: transparent #ff006e transparent transparent;
+      }
+      .tooltip2:hover .tooltiptext2 {
+        visibility: visible;
+      }
+      </style>
+      <div class="tooltip2">
+      <img id="navimage"  src="images/hover.png" onmouseover="onHover();" onmouseout="offHover();"></img>
+      <span class="tooltiptext2"><img src="images/home.png" width="150" height="150"></span></div>
     </a>
     </div>
+
 
     <h1><div class="navbar">
       <a href="video.html" class="buttons">Video❤Art</a>
@@ -30,8 +66,8 @@
         <div class="gallery">
           </brk>
             </div>
-                  <p> Illustration and images made through digital art, specifically through the programs Paint tool Sai and Photoshop. </p>
-
+                  <div class="tooltip"><img src="images/cyan note.png" width="250" height="250"></img></a><span class="tooltiptext"> Here are a few illustrations and images I have made outside and during class using the programs Paint tool Sai and Photoshop.  </span></div>
+        
                   </br>
                   </br>
                   </br>
