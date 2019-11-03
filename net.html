@@ -10,42 +10,43 @@
 
     <a href="index.html">
       <style>
-          a.tooltip {
-            position: relative;
-            display: inline-block;
-          }
+      .tooltip2 {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
 
-          a.tooltip .tooltiptext {
-            visibility: hidden;
-            width: 120px;
-            background-color: black;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px 0;
-            position: absolute;
-            z-index: 1;
-            top: -5px;
-            left: 110%;
-          }
+      .tooltip2 .tooltiptext2 {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        left: 110%;
+      }
 
-          a.tooltip .tooltiptext::after {
-            content: "";
-            position: absolute;
-            top: 50%;
-            right: 100%;
-            margin-top: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: transparent black transparent transparent;
-          }
-          a.tooltip:hover .tooltiptext {
-            visibility: visible;
-          }
-        </style>
-      <div class="a.tooltip">
+      .tooltip2 .tooltiptext2::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent black transparent transparent;
+      }
+      .tooltip2:hover .tooltiptext2 {
+        visibility: visible;
+      }
+      </style>
+      <div class="tooltip2">
       <img id="navimage"  src="images/hover.png" onmouseover="onHover();" onmouseout="offHover();"></img>
-      <span class="a.tooltiptext"> hi </span></div>
+      <span class="tooltiptext2"><<img src="images/home.png" width="25" height="25">></span></div>
     </a>
     </div>
 
