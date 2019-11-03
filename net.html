@@ -9,40 +9,40 @@
   <body>
 
     <a href="index.html">
-      <style>
-      .tooltip2 {
-        position: relative;
-        display: inline-block;
-      }
+            <style>
+            .tooltip2 {
+              position: relative;
+              display: inline-block;
+            }
 
-      .tooltip2 .tooltiptext2 {
-        visibility: hidden;
-        width: 300px;
-        background-color: #ff006e;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        padding: 5px 0;
-        position: absolute;
-        z-index: 1;
-        top: 150px;
-        left: 90%;
-      }
+            .tooltip2 .tooltiptext2 {
+              visibility: hidden;
+              width: 300px;
+              background-color: #ff006e;
+              color: #fff;
+              text-align: center;
+              border-radius: 6px;
+              padding: 5px 0;
+              position: absolute;
+              z-index: 1;
+              top: 150px;
+              left: 90%;
+            }
 
-      .tooltip2 .tooltiptext2::after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        right: 100%;
-        margin-top: -20px;
-        border-width: 20px;
-        border-style: solid;
-        border-color: transparent #ff006e transparent transparent;
-      }
-      .tooltip2:hover .tooltiptext2 {
-        visibility: visible;
-      }
-      </style>
+            .tooltip2 .tooltiptext2::after {
+              content: "";
+              position: absolute;
+              top: 50%;
+              right: 100%;
+              margin-top: -20px;
+              border-width: 20px;
+              border-style: solid;
+              border-color: transparent #ff006e transparent transparent;
+            }
+            .tooltip2:hover .tooltiptext2 {
+              visibility: visible;
+            }
+            </style>
       <div class="tooltip2">
       <img id="navimage"  src="images/hover.png" onmouseover="onHover();" onmouseout="offHover();"></img>
       <span class="tooltiptext2"><img src="images/home.png" width="150" height="150"></span></div>
@@ -56,6 +56,8 @@
       <a href="illustration.html" class="buttons">Illustrations❤</a>
       <a href="sculpture.html" class="buttons">Sculptures❤</a>
     </div></h1>
+
+
 
     <div class="row">
       <div class="side">
@@ -111,32 +113,7 @@
           </br>
 
               </div>
-
-              <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/cyan top.png" width="25" height="25"></button>
-
             <div class="main"></br></div>
-
-            <script>
-                //Get the button
-                var mybutton = document.getElementById("myBtn");
-
-                // When the user scrolls down 20px from the top of the document, show the button
-                window.onscroll = function() {scrollFunction()};
-
-                function scrollFunction() {
-                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    mybutton.style.display = "block";
-                  } else {
-                    mybutton.style.display = "none";
-                  }
-                }
-
-                // When the user clicks on the button, scroll to the top of the document
-                function topFunction() {
-                  document.body.scrollTop = 0;
-                  document.documentElement.scrollTop = 0;
-                }
-                </script>
 
         </body>
 
