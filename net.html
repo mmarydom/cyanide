@@ -14,19 +14,8 @@
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: none;
-  color: none;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
 }
 
-#myBtn:hover {
-  background-color: none;
-}
 </style>
 
 </head>
@@ -143,16 +132,16 @@
 
             <script>
             //Get the button
-            var mybutton = document.getElementById("myBtn");
-
+            var image = document.getElementById("myBtn");
+            image.src="images/cyan top.png";
             // When the user scrolls down 20px from the top of the document, show the button
             window.onscroll = function() {scrollFunction()};
 
             function scrollFunction() {
               if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-                mybutton.style.display = "block";
+                image.style.display = "block";
               } else {
-                mybutton.style.display = "none";
+                image.style.display = "none";
               }
             }
 
