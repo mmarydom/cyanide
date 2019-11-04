@@ -6,6 +6,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
+<style>
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: none;
+  color: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+
 </head>
   <body>
 
@@ -67,7 +86,7 @@
           </brk>
             </div>
                   <div class="tooltip"><img src="images/cyan note.png" width="250" height="250"></img></a><span class="tooltiptext"> Here are a few illustrations and images I have made outside and during class using the programs Paint tool Sai and Photoshop.  </span></div>
-        
+
                   </br>
                   </br>
                   </br>
@@ -90,6 +109,29 @@
 
               </div>
             <div class="main"></br></div>
+
+            <img id="myBtn" src="images/cyan top.png" width="250" height="250" button onclick="topFunction()" title="Go to top"></img></button>
+              <script>
+                  //Get the button
+                  var mybutton = document.getElementById("myBtn");
+
+                  // When the user scrolls down 20px from the top of the document, show the button
+                  window.onscroll = function() {scrollFunction()};
+
+                  function scrollFunction() {
+                    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                      mybutton.style.display = "block";
+                    } else {
+                      mybutton.style.display = "none";
+                    }
+                  }
+
+                  // When the user clicks on the button, scroll to the top of the document
+                  function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                  }
+              </script>
 
         </body>
 
