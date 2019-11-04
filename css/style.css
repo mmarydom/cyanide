@@ -127,7 +127,7 @@ h1 {
   font-family: 'Days One', sans-serif;
   flex: 100%; /* Set the width of the sidebar */
   background-color: #ff8c8c; /* Grey background color */
-  padding: 60px; /* Some padding */
+  padding: 100px; /* Some padding */
 }
 
 /* do not mention in html!! just an image */
